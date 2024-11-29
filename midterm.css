@@ -1,0 +1,57 @@
+.Headimg {
+  position: relative;
+}
+
+.flower {
+  position: relative;
+  z-index: -1;
+  max-width: 100%;
+  max-height: 100%;
+  top:0;
+    left:0;
+}
+/*Source for code above:https://www.w3schools.com/css/css_positioning.asp*/
+.Arushi {
+  position: relative;
+  z-index: 5;
+  top: -200px;
+  width: 300px;
+border-radius: 50%;
+box-shadow: 0 0 10px rgba(0, 0, 0, .9);
+}
+/*Source for above code:1.https://stackoverflow.com/questions/22577371/how-to-make-rectangular-image-appear-circular-with-css*/
+/*Source for shadow:https://www.w3schools.com/css/css3_shadows.asp*/
+body{
+	background-color: white;
+}
+
+.this,footer{
+	background-color: #FFEBCF;
+}
+
+body{
+text-align:justify;}
+
+h1 {
+	font-family:Arial Black;
+}
+
+h2 {
+	font-family:Arial;
+  font-size: x-large !important;
+}
+
+h3 {
+	font-family:Arial;
+  font-size: large !important;
+}
+
+.parallax {
+  background-image: url("lol.jpg");
+  height:60%;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/*Source:https://www.w3schools.com/howto/howto_css_parallax.asp*/
